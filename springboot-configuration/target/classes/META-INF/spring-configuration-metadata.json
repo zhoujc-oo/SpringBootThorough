@@ -1,0 +1,39 @@
+{
+  "groups": [
+    {
+      "name": "servers",
+      "type": "com.zhojc.config.ServerConfig",
+      "sourceType": "com.zhojc.config.ServerConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "servers.data-size",
+      "type": "org.springframework.util.unit.DataSize",
+      "sourceType": "com.zhojc.config.ServerConfig"
+    },
+    {
+      "name": "servers.duration",
+      "type": "java.time.Duration",
+      "sourceType": "com.zhojc.config.ServerConfig"
+    },
+    {
+      "name": "servers.ip-address",
+      "type": "java.lang.String",
+      "sourceType": "com.zhojc.config.ServerConfig"
+    },
+    {
+      "name": "servers.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zhojc.config.ServerConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "servers.timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zhojc.config.ServerConfig",
+      "defaultValue": 0
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,12 @@
+2022-05-14 18:26:46.384  INFO 16940 --- [main] com.zhoujc.SpringbootDonfigApplication   : Starting SpringbootDonfigApplication using Java 1.8.0_131 on DESKTOP-BRSQ2GE with PID 16940 (C:\Users\25975\IdeaProjects\springboot\springboot-config\target\classes started by 25975 in C:\Users\25975\IdeaProjects\springboot)
+2022-05-14 18:26:46.387  INFO 16940 --- [main] com.zhoujc.SpringbootDonfigApplication   : The following 3 profiles are active: "pro", "proDB", "proMVC"
+2022-05-14 18:26:47.238  INFO 16940 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 89 (http)
+2022-05-14 18:26:47.245  INFO 16940 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-14 18:26:47.246  INFO 16940 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-14 18:26:47.334  INFO 16940 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-14 18:26:47.334  INFO 16940 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 911 ms
+2022-05-14 18:26:47.559  INFO 16940 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 89 (http) with context path ''
+2022-05-14 18:26:47.565  INFO 16940 --- [main] com.zhoujc.SpringbootDonfigApplication   : Started SpringbootDonfigApplication in 1.533 seconds (JVM running for 2.105)
+2022-05-14 18:26:56.653  INFO 16940 --- [http-nio-89-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-14 18:26:56.654  INFO 16940 --- [http-nio-89-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-14 18:26:56.655  INFO 16940 --- [http-nio-89-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot-redis" />
+        <module name="springboot-junit" />
+        <module name="springboot-config" />
+        <module name="springboot-mybatis" />
+        <module name="springboot-configuration" />
+        <module name="springboot-druid" />
+        <module name="springboot-ssmp" />
+        <module name="springboot-cache" />
+        <module name="springboot" />
+        <module name="springboot-mybatis_plus" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springboot-deploy" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot" options="-parameters" />
+      <module name="springboot-cache" options="-parameters" />
+      <module name="springboot-config" options="-parameters" />
+      <module name="springboot-configuration" options="-parameters" />
+      <module name="springboot-deploy" options="-parameters" />
+      <module name="springboot-druid" options="-parameters" />
+      <module name="springboot-junit" options="-parameters" />
+      <module name="springboot-mybatis" options="-parameters" />
+      <module name="springboot-mybatis_plus" options="-parameters" />
+      <module name="springboot-redis" options="-parameters" />
+      <module name="springboot-ssmp" options="-parameters" />
+    </option>
+  </component>
+</project>

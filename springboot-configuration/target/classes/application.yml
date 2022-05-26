@@ -1,0 +1,15 @@
+servers:
+  ipaddress: 192.00.2
+  port: 8082
+  timeout: -1
+  duration: 2
+#  duration: 2H
+  dataSize: 10
+#  dataSize: 10KB
+
+test:
+  port: length
+datasource:
+  driverClassName: com.mysql.jdbc.Driver789
+
+

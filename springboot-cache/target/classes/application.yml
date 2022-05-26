@@ -1,0 +1,44 @@
+server:
+  port: 80
+
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/demo?useUnicode=true&characterEncoding=UTF-8
+      username: root
+      password: root
+
+#  cache:
+#    type: redis
+#    redis:
+#      use-key-prefix: false
+#      key-prefix: sms_
+#      cache-null-values: false
+#      time-to-live: 10s
+#
+#
+#  redis:
+#    host: localhost
+#    port: 6379
+
+
+
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+
+
+testcast:
+  book:
+    id: ${random.int}
+#    定义范围
+    id2: ${random.int(10)}
+    type: ${random.int(5,10)}
+#    随机字符串前锁定值
+    name: 黑马${random.value}
+    url: ${random.value}
